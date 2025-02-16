@@ -1,0 +1,50 @@
+.SliderCard {
+  max-width: 262px;
+  height: 100%;
+  width: 100%;
+  img {
+    max-width: 262px;
+    width: 100%;
+    min-height: 173px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    object-fit: cover;
+  }
+  .info_card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    h3 {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 36px;
+    }
+    .location {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      opacity: 60%;
+      span {
+        margin-right: 10px;
+      }
+    }
+    .days {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      opacity: 60%;
+    }
+    .price {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      span {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        opacity: 60%;
+      }
+    }
+  }
+}

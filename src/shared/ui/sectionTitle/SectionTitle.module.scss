@@ -1,0 +1,18 @@
+.SectionTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  h2 {
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 60.2px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    text-align: center;
+    max-width: 735px;
+  }
+}
