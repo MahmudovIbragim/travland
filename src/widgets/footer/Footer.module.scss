@@ -1,8 +1,88 @@
-.Footer{
+.Footer {
   background-color: rgba(38, 148, 153, 0.04);
   padding: 174px 0px;
   margin-top: 140px;
-  .content{
+  .content {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    .contacts {
+      max-width: 186px;
+      width: 100%;
+      .side_logo {
+        h3 {
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 150%;
+          letter-spacing: 6%;
+        }
+      }
+      .contact_side {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 40px 0px 20px;
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 160%;
+          letter-spacing: 6%;
+        }
+      }
+      .social_links {
+        display: flex;
+        align-items: center;
+        gap: 27px;
+      }
+    }
+    .lists {
+      display: flex;
+      justify-content: space-between;
+      max-width: 353px;
+      width: 100%;
 
+      .FooterCard {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        li {
+          p {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 6%;
+          }
+        }
+      }
+    }
+    .subscribe {
+      display: flex;
+      flex-direction: column;
+      max-width: 333px;
+      width: 100%;
+      h3 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 6%;
+      }
+      .form {
+        margin-top: 42px;
+        max-width: 333px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        input {
+          border: 1px solid rgba(0, 0, 0, 0.335);
+          border-radius: 5px;
+          padding: 10px 20px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 150%;
+          letter-spacing: 6%;
+          max-width: 195px;
+        }
+      }
+    }
   }
 }

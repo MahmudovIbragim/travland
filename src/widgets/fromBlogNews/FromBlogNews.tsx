@@ -1,4 +1,4 @@
-import { mockBlogData } from "../../mock/data/data";
+import { mockBlogData } from "../../mock/data/blogData";
 import BlogCard from "../../shared/ui/blogCard/BlogCard";
 import SectionTitle from "../../shared/ui/sectionTitle/SectionTitle";
 import scss from "./FromBlogNews.module.scss";

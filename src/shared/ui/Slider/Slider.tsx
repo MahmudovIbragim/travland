@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./slider.scss";
 import { useState } from "react";
-import { mockSliderData } from "../../../mock/data/data";
+import { mockSliderData } from "../../../mock/data/sliderData";
 import SliderCard from "../sliderCard/SliderCard";
 
 const CustomPrevArrow = (props: any) => (
